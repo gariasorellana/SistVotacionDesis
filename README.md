@@ -1,5 +1,5 @@
 # Sistema de Votación Desis
-Interfaz que valida y guarda en una base de datos, los votos ingresados en un formulario.
+Interfaz que valida y guarda en una base de datos, la información ingresada en un formulario.
 
 ENTREGA de Prueba de Diagnóstico Desis 
 
