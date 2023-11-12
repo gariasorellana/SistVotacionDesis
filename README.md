@@ -1,4 +1,4 @@
-# SistVotacionDesis
+# Sistema de Votación Desis
 Interfaz que valida y guarda los datos de un formulario de votación en una base de datos.
 
 ENTREGA de Prueba de Diagnóstico Desis 
