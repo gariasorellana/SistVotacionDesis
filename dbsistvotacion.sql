@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 10-11-2023 a las 11:55:53
+-- Tiempo de generación: 12-11-2023 a las 16:16:50
 -- Versión del servidor: 10.4.28-MariaDB
 -- Versión de PHP: 8.2.4
 
@@ -20,6 +20,8 @@ SET time_zone = "+00:00";
 --
 -- Base de datos: `dbsistvotacion`
 --
+CREATE DATABASE IF NOT EXISTS `dbsistvotacion` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `dbsistvotacion`;
 
 -- --------------------------------------------------------
 
@@ -37,12 +39,14 @@ CREATE TABLE `candidatos` (
 --
 
 INSERT INTO `candidatos` (`idCandidato`, `nombreCandidato`) VALUES
-('JP', 'Juan Castro'),
-('PG', 'Pedro Gonzalez'),
-('PT', 'Pamela Toro'),
-('JP', 'Juan Castro'),
+('AF', 'Andrés Flores'),
+('CD', 'Claudia Delgado'),
+('EA', 'Edit Arias'),
+('ES', 'Edit Sepúlveda'),
 ('GM', 'Gloria Morales'),
-('dd', 'ochefvpiwjen');
+('MT', 'Mauricio Toro'),
+('PG', 'Paula González'),
+('PS', 'Paulo San Martín');
 
 -- --------------------------------------------------------
 
@@ -465,6 +469,12 @@ CREATE TABLE `votos` (
 --
 -- Índices para tablas volcadas
 --
+
+--
+-- Indices de la tabla `candidatos`
+--
+ALTER TABLE `candidatos`
+  ADD PRIMARY KEY (`idCandidato`);
 
 --
 -- Indices de la tabla `comunas`
