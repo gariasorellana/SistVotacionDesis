@@ -45,6 +45,8 @@ Se incluyeron comentarios de implementación dentro del código
 
 Se utilizan caracteres del servidor: UTF-8 Unicode (utf8mb4)
 
+Las pruebas se realizaron en Google Chrome.
+
 Tecnologías utilizadas:  
 - PHP 8.2.4 (VS16 X86 64bit thread safe).
 - PDO (PHP Data Objects).
